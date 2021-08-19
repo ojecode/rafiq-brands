@@ -4,8 +4,16 @@
     padding: 0;
     margin: 0;
 }
-body {
+html, body {
+    height: 100%;
     font-family: 'Roboto Condensed', sans-serif;
+}
+i {
+    color: white;
+    font-weight: 400;
+}
+i:hover {
+    color: #000;
 }
 /*styling for the header section*/
 
@@ -29,16 +37,116 @@ li {
     list-style: none;
 }
 .links-list .links {
-    padding: 5px;
-    margin: 0 5px;
+    padding: 15px;
+    /*margin: 0 5px;*/
+    cursor: pointer;
+    border-radius: 3px;
+}
+.links-list .links a {
+    padding: 15px 20px;
 }
 .links-list .links a:hover {
-    color: #6b0504;
+    color: #000000;
+    background: #ffffff;
 }
 .nav-icons .icons-list .icons {
-    padding: 5px;
-    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    margin: 0 3px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nav-icons .icons-list .icons:hover {
+    background-color: white;
+}
+.nav-icons .icons-list .icons a {
+    padding: 4px 6px;
 }
 .nav-icons .icons-list .icons a:hover {
-    color: #6b0504;
+    color: #000;
+}
+
+/*styling for the main section*/
+
+.page-wrapper {
+    min-height: 100%;
+}
+
+/*styling for the footer section*/
+
+footer {
+    background-color: black;
+    color: white;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-top a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.footer-top .contact-infor {
+    display: flex;
+    flex-direction: row;
+}
+.footer-top .contact-infor .infor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0px; 
+}
+.footer-top .contact-infor .infor p {
+    padding-left: 25px;
+}
+.footer-icons .footer-icons-list .icons {
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin: 30px 3px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icons .footer-icons-list .icons:hover {
+    background-color: #ffffff;
+}
+.footer-icons .footer-icons-list .icons a {
+    padding: 4px 6px;
+}
+.footer-icons .footer-icons-list .icons a:hover {
+    color: #000000;
+}
+
+
+
+
+.footer-bottom {
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-bottom hr {
+    color: gray;
+    /*border: 1px solid white;*/
+    width: 100%;
+}
+.footer-bottom p {
+    padding-top: 10px;
 }

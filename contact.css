@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap');
+
+.page-wrapper {
+    text-align: center;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;*/
+}
+.intro-section {
+    background-image: url(/img/img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70%;
+    height: 150px;
+    width: 100%;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-wrapper .header {
+    margin: 20px;
+}
+.contact-wrapper .header h2{
+    font-size: 30px;
+}
+.contact-wrapper .header p{
+    font-size: 15px;
+    padding: 10px;
+}
+.contact-wrapper hr {
+    width: 90%;
+    margin: 0 5%;
+    border: 2px solid rgb(66, 17, 17);
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+.form-wrapper .contact-form, .contact-details {
+    border: 2px solid #000;
+    width: 40%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.form-wrapper .contact-form .input-area{
+    width: 100%;
+    margin-bottom: 6px;
+    height: 25px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
